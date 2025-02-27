@@ -1,0 +1,12 @@
+<resources>
+    <style name="CategoryBox">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">#a0e9f4</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">#B0B0B0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rounded_corner_background</item> <!-- Create this drawable -->
+    </style>
+</resources>

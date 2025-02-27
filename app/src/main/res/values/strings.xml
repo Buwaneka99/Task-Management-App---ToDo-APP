@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="select_reminder_time">Select Reminder Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="task_title">Task Title</string>
+    <string name="description">Description</string>
+    <string name="select_date">Select Date</string>
+    <string name="add_task">Add Task</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_date2">Due Date:</string>
+    <string name="time1">Time</string>
+    <string name="reminder">Reminder Time</string>
+    <string name="reminder_time">Reminder Time:</string>
+    <string name="description1">Description</string>
+    <string name="description2">Description:</string>
+    <string name="all">All</string>
+    <string name="personal">Personal</string>
+    <string name="work">Work</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="birthday">Birthday</string>
+    <string name="others">Others</string>
+    <string name="todo">TODO</string>
+    <string name="status1">Status</string>
+    <string name="status2">Status:</string>
+    <string name="time2">Time:</string>
+    <string-array name="category_array">
+        <item>All</item>
+        <item>Personal</item>
+        <item>Wishlist</item>
+        <item>Birthday</item>
+        <item>Others</item>
+    </string-array>
+</resources>

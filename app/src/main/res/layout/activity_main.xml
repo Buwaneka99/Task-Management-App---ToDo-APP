@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/tvAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:id="@+id/tvPersonal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personal"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:id="@+id/tvWork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/work"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:id="@+id/tvWishlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wishlist"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:id="@+id/tvBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birthday"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:id="@+id/tvOthers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/others"
+                android:gravity="center"
+                android:background="@drawable/category_background"
+                android:textColor="#7e7e7e"
+                android:padding="10dp"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_add" />
+</LinearLayout>
